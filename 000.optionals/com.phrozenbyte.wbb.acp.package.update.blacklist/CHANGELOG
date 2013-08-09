@@ -1,0 +1,14 @@
+com.phrozenbyte.wbb.acp.package.update.blacklist (1.0.1); urgency=low
+
+  * E_STRICT PHP Error removed
+    "Strict Standards: Only variables should be assigned by reference"
+    /lib/system/event/listener/PackageUpdateBlacklistWbbListener.class.php:58
+
+ -- Daniel Rudolf <drudolf@phrozenbyte.de>  Wed, 4 May 23:31:03 +0200
+
+
+com.phrozenbyte.wbb.acp.package.update.blacklist (1.0.0); urgency=low
+
+  * Initial release
+
+ -- Daniel Rudolf <drudolf@phrozenbyte.de>  Thu, 29 Apr 2011 20:36:19 +0200

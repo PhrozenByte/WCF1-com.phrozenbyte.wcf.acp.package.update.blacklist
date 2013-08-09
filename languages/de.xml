@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+
+<!--
+	Package Administration - Update Blacklist
+	Copyright (C) 2011	Daniel Rudolf <drudolf@phrozenbyte.de>
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<language languagecode="de">
+	<category name="wcf.acp.packageUpdate.blacklist">
+		<item name="wcf.acp.packageUpdate.blacklist"><![CDATA[Ausgeblendete Paketaktualisierungen]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.manage"><![CDATA[Ausgeblendete Paketaktualisierungen verwalten]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.count"><![CDATA[{if $packages|count == 1}Beim installierten Paket wurden{if $blacklist|count == 0} keine{/if} Aktualisierungen ausgeblendet.{else}Insgesamt wurden bei {if $blacklist|count == 0}keinem{elseif $blacklist|count == 1}einem{else}{$blacklist|count}{/if} der {#$items} installierten Pakete Aktualisierungen ausgeblendet.{/if}]]></item>
+
+		<item name="wcf.acp.packageUpdate.blacklist.column.version"><![CDATA[Installierte Version]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.column.blacklist"><![CDATA[Blacklist]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.column.updateDate"><![CDATA[Aktualisierungsdatum]]></item>
+
+		<item name="wcf.acp.packageUpdate.blacklist.list"><![CDATA[Blacklist]]></item>
+
+		<item name="wcf.acp.packageUpdate.blacklist.add"><![CDATA[Eintrag hinzufügen]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.add.help"><![CDATA[Geben Sie hier einen Suchbegriff an der dazu genutzt werden soll automatische Updates auszublenden. Momentan verfügbare Updates können Sie direkt über das Auswahlfeld ansprechen. Zusätzlich können Sie den Sternoperator nutzen der als Platzhalter wirkt und nur an das Ende des Suchbegriffs gestellt werden kann. Der Suchbegriff »1.0.*« würde beispielsweise die Versionen »1.0.0 Beta 1«, »1.0.0«, »1.0.1«, »1.0.1 pl1« usw. ausblenden.]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.add.success"><![CDATA[Der Eintrag wurde erfolgreich zur Blacklist hinzugefügt.]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.add.error"><![CDATA[Der Eintrag konnte nicht zur Blacklist hinzugefügt werden.]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.add.wildcardError"><![CDATA[Der Sternoperator kann nur am Ende des Eintrags stehen.]]></item>
+
+		<item name="wcf.acp.packageUpdate.blacklist.remove"><![CDATA[Eintrag entfernen]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.remove.help"><![CDATA[Nutzen Sie dieses Auswahlfeld um ein zur Zeit verfügbares Update wieder einzublenden und dadurch wieder ein Update auf diese Version zu ermöglichen.]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.remove.success"><![CDATA[Der Eintrag wurde erfolgreich von der Blacklist entfernt.]]></item>
+		<item name="wcf.acp.packageUpdate.blacklist.remove.error"><![CDATA[Der Eintrag konnte nicht von der Blacklist entfernt werden.]]></item>
+
+		<item name="wcf.acp.packageUpdate.blacklist.versionPrompt"><![CDATA[Geben Sie hier einen Suchbegriff an der dazu genutzt werden soll automatische Updates auszublenden. Sie können den Sternoperator nutzen der als Platzhalter wirkt und nur an das Ende des Suchbegriffs gestellt werden kann. Der Suchbegriff »1.0.*« würde beispielsweise die Versionen »1.0.0 Beta 1«, »1.0.0«, »1.0.1«, »1.0.1 pl1« usw. ausblenden.]]></item>
+	</category>
+</language>
