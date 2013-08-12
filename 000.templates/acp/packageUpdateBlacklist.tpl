@@ -18,7 +18,7 @@
 
 {include file='header'}
 <script type="text/javascript" src="{@RELATIVE_WCF_DIR}js/MultiPagesLinks.class.js"></script>
-<script type="text/javascript" src="{@RELATIVE_WCF_DIR}acp/js/PackageUpdateBlacklist.class.js"></script>
+<script type="text/javascript" src="{@RELATIVE_WCF_DIR}acp/js/PackageUpdateBlacklist.class.min.js"></script>
 <script type="text/javascript">
 	//<![CDATA[
 		language = [];

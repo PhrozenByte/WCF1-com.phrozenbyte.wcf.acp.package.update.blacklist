@@ -21,7 +21,7 @@
 	//]]>
 </script>
 
-<script type="text/javascript" src="{@RELATIVE_WCF_DIR}acp/js/PackageAutoUpdateBlacklist.class.js"></script>
+<script type="text/javascript" src="{@RELATIVE_WCF_DIR}acp/js/PackageAutoUpdateBlacklist.class.min.js"></script>
 <script type="text/javascript">
 	//<![CDATA[
 		language = [];
