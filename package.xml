@@ -23,8 +23,8 @@
 		<packagename>Package Administration - Update Blacklist</packagename>
 		<packagedescription>Allows to blacklist package versions which then will be hidden when performing an automatic update.</packagedescription>
 		<packagedescription language="de">Dem Administrator wird per Blacklist ermöglicht Paketversionen beim automatischen Update zu verstecken.</packagedescription>
-		<version>1.0.1</version>
-		<date>2011-05-04</date>
+		<version>1.0.2</version>
+		<date>2013-08-12</date>
 		<packageurl>http://www.phrozenbyte.de/</packageurl>
 		<plugin>com.woltlab.wcf</plugin>
 		<standalone>0</standalone>
@@ -58,5 +58,12 @@
 
 	<instructions type="update" fromversion="1.0.0">
 		<files><![CDATA[files.tar]]></files>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.1">
+		<files><![CDATA[files.tar]]></files>
+
+		<acptemplates><![CDATA[templates/acp.tar]]></acptemplates>
+		<acptemplatepatch><![CDATA[templates/acp.1-0-1-to-1-0-2.diff]]></acptemplatepatch>
 	</instructions>
 </package>
